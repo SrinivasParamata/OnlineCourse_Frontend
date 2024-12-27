@@ -1,0 +1,67 @@
+/* Fullscreen overlay */
+.course-wrapper-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensure it's on top of everything */
+  }
+  
+  /* CourseWrapper container */
+  .course-wrapper {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px; /* Adjust based on your preference */
+    max-width: 100%;
+    z-index: 10000;
+  }
+  
+  /* Input fields styling */
+  .course-wrapper input,
+  .course-wrapper textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .course-wrapper label {
+    font-weight: bold;
+  }
+  
+  .course-wrapper button {
+    background-color: #1976d2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .course-wrapper button:hover {
+    background-color: #1565c0;
+  }
+  
+  /* Close button in the modal */
+  .close-btn {
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .course-wrapper button.disable{
+    cursor:not-allowed;
+    background-color: gray;
+  }
+  

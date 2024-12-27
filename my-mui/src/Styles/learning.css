@@ -1,0 +1,109 @@
+.myLearn{
+    width: 500px;
+    height: 120px;
+    margin-top: 0px;
+    background-color: violet;
+}
+
+
+.myLearn {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: fit-content; /* Adjusts to fit content */
+  }
+  
+  /* Title styling */
+  .myLearn p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    margin-left: 20px;
+    font-style: italic;
+  }
+  
+  /* Course container */
+  .course-learn {
+    width: 620px;
+    height: 250px;
+    overflow-y: auto; /* Enables vertical scrolling */
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+
+  
+
+
+
+.course-item {
+  display: flex; /* Flexbox for side-by-side layout */
+  align-items: center; /* Align items vertically centered */
+  gap: 10px; /* Optional spacing between elements */
+  padding: 10px; /* Optional padding around the container */
+  background-color:rgba(165, 42, 42, 0.37);
+  border: 1px solid #ddd; /* Optional border */
+  border-radius: 8px; /* Optional rounded corners */
+  margin-bottom: 10px;
+  height: auto;
+  cursor: pointer;
+}
+
+.learn-icon {
+  flex-shrink: 0; /* Prevents icon from shrinking */
+  margin-left: 40px;
+}
+
+.learn-content {
+
+  display: flex;
+  flex-direction: column; /* Stack name and description vertically */
+  min-width: 260px;
+}
+
+.learn-name {
+  font-weight: bold; /* Bold for name */
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.learn-descrp {
+  font-size: 0.9em;
+}
+
+.learn-bar {
+  flex-shrink: 0; /* Prevents bar from shrinking */
+  color: white;
+  padding: 5px 10px; /* Optional padding */
+  border-radius: 4px; /* Optional rounded corners */
+  width: 120px;
+  margin-left: 10px;
+}
+
+
+.learn-name{
+  margin-left: 20px;
+  position: relative;
+  width: 160px;
+  height: auto;
+  font-size: 1.4rem;
+  overflow-wrap: break-word;
+}
+
+.learn-descrp{
+  position: relative;
+  width: 160px;
+  margin-left: 20px;
+  overflow-wrap: break-word;
+  height: auto;
+  font-size: 1rem;
+
+}
+

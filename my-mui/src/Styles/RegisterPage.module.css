@@ -1,0 +1,231 @@
+
+
+/* Title styling */
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.btn:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+/* Error message styling */
+.errorBox {
+  background-color: #ffebeb;
+  color: #d93025;
+  border: 1px solid #d93025;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(217, 48, 37, 0.2);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.errorBox.active{
+  color: green;
+  border: 1px solid green;
+  
+}
+
+.profile-icon link:hover{
+  color: gray;
+}
+
+
+.errorBox.hidden {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+/* Input field styling */
+.formGroup {
+  margin-bottom: 1rem;
+  width: 380px;
+}
+
+.label {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  border-color:darkorange;
+}
+
+/* Button container */
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+/* Button styling */
+.btn {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+/* Link styling */
+.link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: normal;
+}
+/* Full page centering */
+.pageContainer {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:rgba(202, 241, 222, 0.555);
+  border-radius: 20px;
+  margin: 0;
+}
+
+/* Error message styling */
+.errorBox {
+  background-color: #ffebeb;
+  color: #d93025;
+  /* border: 1px solid #d93025; */
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  max-width: 400px;
+  width: 200px;
+  width: 100%; /* Align with the form width */
+  /* box-shadow: 0 2px 4px rgba(217, 48, 37, 0.2); */
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.errorBox.hidden {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+/* Form container */
+.formBox {
+  background-color:  rgb(202, 241, 222);
+
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 900px;
+
+}
+
+.passwordHint{
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ShowCourses */
+
+.container {
+  margin-left: 200px;
+  margin-top: 210px;
+  height: 480px; /* Fixed height for the container */
+  overflow-y: auto; /* Enable vertical scrolling only when content exceeds 500px */
+  overflow-x: hidden;
+}
+
+
+.row {
+  display: flex;
+  gap: 20px; /* Spacing between columns */
+  margin-bottom: 20px;
+}
+
+.formGroup {
+  flex: 1; /* Equal width for all form groups */
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-left: 22px;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 320px;
+}
+
+.passwordHint {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 10px; /* Spacing between buttons */
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color:green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.btn.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

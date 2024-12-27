@@ -1,0 +1,142 @@
+.profileContainer {
+    padding: 20px;
+  }
+  
+  .welcomeText {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .profileDetails, .profileEditForm {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 380px;
+    margin-top: 160px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .profileEditForm {
+    display: grid; /* Use CSS Grid for alignment */
+    grid-template-columns: 150px auto; /* Fixed width for labels, flexible width for inputs */
+    gap: 15px 20px; /* Row and column spacing */
+    align-items: center; /* Aligns items vertically in the center */
+    max-width: 500px; /* Optional: Limit form width */
+    margin-left: 300px;
+    margin-top: 220px;
+  }
+  
+  .formGroup {
+    display: contents; /* Prevent unnecessary wrapping */
+  }
+  
+  .label {
+    text-align: right; /* Align labels to the right */
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .value {
+    padding: 8px;
+    font-size: 16px;
+    font-style: italic;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Ensure input fields take the remaining space */
+  }
+
+
+  .btnvalue {
+    margin-left: 40px;
+    padding: 8px;
+    font-size: 16px;
+    font-style: italic;
+    cursor: pointer;
+    color: white;
+    background-color: #007bff;
+    border-radius: 4px;
+    width: 100%; /* Ensure input fields take the remaining space */
+  }
+
+  
+  .btnvalue:hover{
+    background-color: black;
+  }
+
+
+
+
+
+
+ 
+  .btn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: black;
+  }
+
+  
+  
+
+  .buttonGroup {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .editButton, .saveButton {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .editButton:hover, .saveButton:hover {
+    background-color: black;
+  }
+
+  .errorMsg {
+    color: red;
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+    margin-bottom: 20px;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 420px;
+    border: 1px solid red;
+    padding: 10px 40px;
+    font-style: italic;
+  }
+ 
+  
+  .pageContainerEdit {
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 120px;
+    background-color: yellow;
+    background-color: #f4f4f9;
+    margin: 0;
+  }
+
+  .pageContainer {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    height: 190vh;
+    background-color: #f4f4f9;
+    margin: 0;
+  }

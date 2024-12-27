@@ -1,0 +1,94 @@
+.person-info {
+  padding: 16px;
+  width: 550px;
+}
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; /* Set relative positioning for child absolute positioning */
+}
+
+.icon-button {
+  display: flex;
+  background: none; /* Ensure the button is positioned absolutely inside the grid-item */
+  border: none;
+}
+
+.arrow-icon {
+  position: absolute;
+  font-size: 30px; /* Size of the arrow icon */
+  top: 35px; /* Adjust vertical position */
+  left: 20px; /* Adjust horizontal position */
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 26px;
+  background-color: white;
+}
+
+.noti-icon {
+  position: absolute;
+  font-size: 30px; /* Size of the notification icon */
+  top: 42px; /* Adjust vertical position */
+  left: 110px; /* Adjust horizontal position */
+}
+
+.username-box {
+  position: absolute;
+  font-size: 19px;
+  width: 90px;
+  margin-left: 45px;
+  text-align: right;
+  margin-top: 40px;
+}
+
+.username-box p{
+  margin-top: 0px;
+  font-size: 14px;
+}
+
+
+.profile-icon {
+  position: absolute;
+  font-size: 40px;
+  margin-top: 32px;
+  width: 56px;
+  margin-right: 0px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  margin-left: 200px;
+  border-radius: 40px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 650px;
+  min-height: 150px;
+  height: auto;
+}
+
+
+/* person-details */
+.grid-containerr {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 670px;
+  height: 150px;
+  background-color:rgba(165, 42, 42, 0.37);
+  border-radius: 40px;
+}
+

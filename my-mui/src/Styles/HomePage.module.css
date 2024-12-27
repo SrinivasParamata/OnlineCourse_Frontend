@@ -1,0 +1,91 @@
+/* Parent container styling */
+.homepageContainer {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Align content at the top */
+    align-items: center; /* Center content horizontally */
+    height: 100vh; /* Full viewport height */
+    background-color: #f9fafc; /* Light background for clarity */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* Registration box styling */
+  .registrationBox {
+    text-align: center; /* Center the text inside */
+    background-color: #ffffff; /* White background for the box */
+    padding: 2rem; /* Spacing inside the box */
+    border-radius: 10px; /* Rounded corners for smooth look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+    max-width: 400px; /* Constrain width for consistent layout */
+    width: 90%; /* Responsive width for smaller screens */
+    margin-top: 2rem; /* Space from the top */
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 1.8rem; /* Slightly larger font */
+    font-weight: bold; /* Emphasize the title */
+    color: #333; /* Dark gray for contrast */
+    margin-bottom: 1rem; /* Space below the title */
+  }
+  
+  /* Button group container */
+  .buttonGroup {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 1rem; /* Space between buttons */
+    align-items: center; /* Center align buttons */
+    margin-top: 1rem; /* Space above buttons */
+  }
+  
+  /* Button styling */
+  .btn {
+    background-color: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Smooth rounded edges */
+    padding: 0.7rem 1.5rem; /* Size of buttons */
+    font-size: 1rem; /* Text size */
+    cursor: pointer; /* Show pointer cursor on hover */
+    text-transform: uppercase; /* Capitalize text */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover effect for buttons */
+  .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Link styling */
+  .link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit button text color */
+    display: inline-block; /* Ensure link spans entire button */
+    text-align: center; /* Center text in the button */
+    width: 100%; /* Full button width */
+    height: 100%; /* Full button height */
+  }
+  
+  /* Child content container (for Outlet) */
+  .childContainer {
+    margin-top: 2rem; /* Space between buttons and child content */
+    width: 100%; /* Full width for child content */
+    display: flex;
+    justify-content: center; /* Center-align child components */
+    align-items: center; /* Center vertically */
+  }
+  
+    /* Title styling */
+    .error {
+      font-size: 1.8rem; /* Slightly larger font */
+      font-weight: bold; /* Emphasize the title */
+      color:red; /* Dark gray for contrast */
+      margin-bottom: 1rem; /* Space below the title */
+      font-style: italic;
+      text-align: center;
+      margin-top: 240px;
+      padding: 20px;
+      border: 1px solid yellow;
+      background-color: yellow;
+    }

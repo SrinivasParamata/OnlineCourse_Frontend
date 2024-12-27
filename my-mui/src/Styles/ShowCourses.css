@@ -1,0 +1,607 @@
+.root{
+    /* background-color: #f4f4f4; */
+    width: auto;
+    height: 500px;
+    margin-left: 60px;
+  
+    display: flex;
+  
+  }
+  
+  .sidebar {
+  
+    width: 200px;
+    height: 100vh; /* Full height */
+  
+    background-color:white;
+  }
+  .sidebar .head{
+    margin-top: 70px;
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 140px;
+  }
+  
+  .sidebar h4 {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    background-color: white;
+  }
+  
+  .sidebar ul {
+    position: relative;
+    list-style-type: none;
+  }
+  
+  .sidebar li {
+    margin: 10px 0;
+    cursor: pointer;
+    margin-left: 40px;
+    /* color: #333; */
+    font-size: 1rem;
+  }
+  
+  .sidebar li:hover {
+    font-size: 1.1rem;
+    color: #007BFF; 
+  }
+  
+  .sidebar button {
+    /* background-color: transparent; */
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+    /* color: #333; */
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    
+  }
+  
+  .sidebar button:hover {
+    background-color:yellow;
+  }
+  
+  .sidebar button.active {
+    color: blue; /* Active text color */
+    font-weight: bold;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  
+  /* course */
+  
+  
+  .course{
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 750px;
+    height: 300px;
+  }
+  
+  .chead{
+    position: absolute;
+    color:black;
+    width: 300px;
+    margin-left: 30px;
+   
+  }
+  
+  .buttonDiv button{
+    position: relative;
+    margin-left: 290px;
+    margin-top: 30px;
+    width: 50px;
+    border-radius: 20px;
+    font-size: 25px;
+    border: 20px solid blue;
+    padding-right: 20px;
+    color:white;
+    background-color: blue;
+    height: 80px;
+    margin-bottom: 80px;
+  }
+  
+  
+  
+  .buttonDiv .disable{
+    background-color: gray;
+    cursor: not-allowed;
+    border: 20px solid gray;
+  }
+  /* 
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+  } */
+  
+  .dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    background-color: #fff;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .upgrade-box {
+    margin-top: 30px;
+    background-color: #f0f8ff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .upgrade-box button {
+    margin-top: 5px;
+    padding: 8px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Main Section */
+  .main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 170px;
+  }
+  
+  
+  .content{
+    background-color: white;
+    width: 600px;
+  }
+  header .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  header .profile-icon {
+    background-color: #ccc;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  
+  /* Courses Section */
+  .courses {
+    margin-bottom: 20px;
+    height: 500px;
+    background-color: yellow;
+    overflow-y: scroll;
+  }
+  
+  /* .course-icon{
+  
+  }
+   */
+  
+  
+  /* .course-card {
+    flex: 1;
+    padding: 20px;
+    color: white;
+  }
+  
+  .course-card h4 {
+    margin: 0 0 10px 0;
+  }
+  
+  .course-card span {
+    font-weight: bold;
+  }
+  
+  .blue {
+    background-color: #007bff;
+  }
+  
+  .purple {
+    background-color: #6f42c1;
+  }
+  
+  .yellow {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .red {
+    background-color: #dc3545;
+  } */
+  
+  /* My Learning */
+  .my-learning {
+    margin-bottom: 20px;
+  }
+  
+  .learning-progress {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .learning-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .learning-item progress {
+    width: 100%;
+  }
+  
+  /* Planning */
+  .planning {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Main Content Adjustments */
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+  }
+  
+  /* Align Courses and My Learning */
+  .content-sections {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Planning Positioned Below My Learning */
+  .planning {
+    margin-top: 20px;
+  }
+  
+  /* Courses Section - Flexibly Scrollable */
+  .courses {
+    margin-bottom: 20px;
+    background-color: yellow;
+    flex-grow: 1;  /* Allows the courses section to take available space */
+    min-height: 200px; /* Ensure it doesn't shrink too much */
+    overflow-y: auto;  /* Make it scrollable if content overflows */
+  }
+  
+  /* Set a fixed height for the course list to enable scrolling */
+  .course-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-height: 100%;  /* Allow the course list to take full space */
+    overflow-y: auto;  /* Enable scrolling if content overflows */
+    padding-right: 10px;  /* Space for scrollbar */
+  }
+  
+  
+  
+  
+  
+  
+  
+  .course-card {
+    flex: none; /* Ensure cards do not stretch */
+    border-radius: 40px;
+    color: white;
+  }
+  
+  .course-card h4 {
+    margin: 0 0 10px 0;
+  }
+  
+  .course-card p {
+    margin: 0 0 20px 0;
+  }
+  
+  .course-card span {
+    font-weight: bold;
+  }
+  
+  /* Maintain colors */
+  .blue {
+    background-color: #007bff;
+  }
+  
+  .purple {
+    background-color: #6f42c1;
+  }
+  
+  .yellow {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .red {
+    background-color: #dc3545;
+  }
+  
+  .enroll-button {
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .enroll-button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  
+  
+  .subclass{
+    width: 600px;
+    height: 542px;
+    overflow-y: scroll;
+  }
+  
+  
+  
+  .container {
+    height: 480px; /* Fixed height for the container */
+    overflow-y: auto; /* Enable vertical scrolling only when content exceeds 500px */
+    overflow-x: hidden;
+  }
+  
+  .list-item {
+    height: 140px; 
+  }
+  
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'menu main right'
+      'footer footer footer';
+    grid-template-columns: 1fr 1.6fr 0fr; /* Distribute space evenly */
+    gap: 0; /* Remove grid gap */
+    opacity: 0.8;
+    width: 100%;
+  }
+  .course-footer.bar-button{
+    background-color: yellow;
+  }
+  
+  .course-icon, .course-content, .course-right {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  
+  .course-card {
+    overflow: hidden;
+    width: 550px;
+  }
+  
+  .course-icon {
+    grid-area: menu;
+    text-align: center;
+    font-size: 24px;
+    width: 76px;
+    height: auto;
+    margin-top: 14px;
+    margin-left: 20px;
+    background-color: yellow;
+  }
+  
+  .course-content {
+    width: 180px;
+    grid-area: main;
+    margin-right: 0px;
+  }
+  
+  .course-right {
+    grid-area: right;
+    color: white;
+  }
+  
+  .course-footer {
+    grid-area: footer;
+    display: flex;
+    width: 10px;
+    padding: 10px;
+  }
+  
+  
+  
+  
+  .course-name{
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .course-descrp{
+    margin-top: 5px;
+    max-width: 250px;
+    height: auto;
+    color: white;
+    font-size: 14.5px;
+  }
+  
+  
+  
+  
+  
+  
+  .course-right{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 55px;
+  
+  }
+  
+  .course-right .total{
+    background-color: white;
+    width: 35px;
+    height: 26px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    color:black;
+    font-size: 16px;
+  }
+  
+  .course-right span{
+    margin-right: 50px;
+    font-size: 9px;
+    color: white;
+  }
+  
+  .course-right span.active{
+    font-size: 14px;
+  }
+  
+  .course-footer .bar progress{
+    width: 350px;
+    margin-left: 12px;
+  }
+  
+  .bar-button button {
+  
+    background-color: transparent; /* No background */
+    border: none; /* No border */
+    padding: 5px 10px; /* Adjust padding as needed */
+    color: white; /* White text */
+    font-size: 14px; /* Adjust font size if needed */
+    cursor:pointer;
+    margin-left: 80px;
+  }
+  
+  .bar-button button.active{
+    font-size: 12px;
+    cursor:not-allowed;
+  }
+  
+  
+  
+  
+  /* Styling for course footer and other elements can stay as-is */
+  .course-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .course-footer .bar{
+    width: 600px;
+  }
+  
+  
+  .course-footer progress {
+    width: 60%;
+    height: 8px;
+    border-radius: 5px;
+    overflow: hidden;
+    appearance: none;
+  }
+  
+  .course-footer progress::-webkit-progress-bar {
+    background-color:rgba(255, 255, 255, 0.575);
+    width: 400px;
+    border-radius: 5px;
+  }
+  
+  .course-footer progress::-webkit-progress-value {
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  
+  
+  .container .show{
+    font-style: italic;
+    font-size: 22px;
+    margin-left: 62px;
+    margin-top: 160px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .per-icon { grid-area: main; background-color: blue; }
+  .per-info { grid-area: right; }
+  
+  .per-details {
+    display: grid;
+    grid-template-areas:
+      'main main  right';
+    background-color: yellow;
+  }
+  
+  .per-icon{
+    margin-left: 30px;
+  }
+   
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: yellow;
+    border-radius: 40px;
+  } 
+  /*
+  .grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+  } */
+  
+  .grid-item >ArrowCircleLeftOutlinedIcon {
+    margin-left: 30px;
+    font-size: 400px;
+  }

@@ -1,0 +1,15 @@
+.thead{
+    margin-left: 150px;
+    overflow-x: hidden;
+    margin-top: 190px;
+    border: 1px solid red;
+    box-shadow:0cqmin;
+}
+
+h4.theader{
+    position: absolute;
+    margin-left: 360px;
+    font-size: 24px;
+    margin-top: 120px;
+    font-style: italic;
+}
